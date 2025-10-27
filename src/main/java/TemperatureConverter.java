@@ -5,14 +5,14 @@ public class TemperatureConverter {
     }
 
     public double celsiusToFahrenheit(double celsius) {
-        return 0;
+        return (celsius * 9/5) + 32;
     }
 
     public double fahrenheitToCelsius(double fahrenheit) {
-        return 0;
+        return (fahrenheit - 32) * 5/9;
     }
 
     public double celsiusToKelvin(double celsius) {
-        return 0;
+        return celsius + 273.15;
     }
 }
