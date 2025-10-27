@@ -12,7 +12,7 @@ public class TemperatureConverter {
         return 0;
     }
 
-    public double celciusToKelvin(double celsius) {
+    public double celsiusToKelvin(double celsius) {
         return 0;
     }
 }
